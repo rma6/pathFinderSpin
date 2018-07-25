@@ -1,0 +1,5 @@
+Usage simulation:
+cat matrix.txt | spin -Dcolumns=<number of columns> -Dlines=<number of lines> pathFinder.pml
+ex:
+cat matrix.txt | spin -Dlines=4 -Dcolumns=4 pathFinder.pml
+
